@@ -1,0 +1,250 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Fondo general */
+.bannerweb {
+    background-image: url("../imagenes/portada2.jpg");
+    background-position: center;
+    height: 100vh; /* Altura Total */
+}
+
+/* Centrado de texto */
+.centrado {
+    text-align: center;
+}
+
+.centradologin {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Espaciados */
+.bajar1 { padding-top: 150px; }
+.bajar2 { padding-top: 50px; }
+.bajar3 { padding-top: 200px; }
+.bajar4 { padding-top: 175px; }
+.bajar5 { padding-top: 90px; }
+.bajar6 { padding-top: 0px; }
+.bajarlogo { padding-top: 25px; }
+
+/* Encabezados */
+h1 { color: #fff; font-size: 70px; }
+h2 { color: #fff; font-size: 50px; }
+h3 { color: #fff; font-size: 40px; }
+h4 { color: #fff; font-size: 25px; }
+h5 { color: #fff; font-size: 15px; }
+h6 { color: #000; font-size: 50px; text-align: center; padding-bottom: 10px;}
+.color1 { color: #fff; }
+
+/* Botones */
+.botones {
+    width: 150px;
+    height: 30px;
+    border-radius: 8px solid #070707;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 3);
+    cursor: pointer;
+    color: #fff;
+    background-color: #1E3A8A;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 6px 35px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #1570cd;
+    transition: all linear 0.2s;
+    border-radius: 24px;
+}
+
+.botones:hover {
+    background-color: #dbad50;
+    color: #efefef;
+    transition: all linear 0.3s;
+}
+
+/* Formulario */
+.configform {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    color: #fff;
+}
+
+.configform2 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+/* Etiquetas */
+label {
+    font-size: 24px;
+    float: left;
+}
+
+/* Campos de entrada */
+.form-control {
+    font-size: 20px;
+    width: 100%;
+    max-width: 200px;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* Video */
+video {
+    object-fit: cover;
+}
+
+/* Logo */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -150px;
+}
+
+.logo-container img {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+}
+
+/* Redes Sociales */
+.logo-sociales img {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* ================= ESTILOS PARA INICIO.HTML ================= */
+
+/* Estilos generales de secciones solo para inicio.html */
+.pagina-inicio section {
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Sección de Bienvenida */
+.pagina-inicio .bienvenida p {
+    font-size: 30px;
+    text-align: justify;
+}
+
+/* Sección de Bienvenida */
+.pagina-inicio .historia p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* Sección de Horarios */
+.pagina-inicio .horarios table {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.pagina-inicio .horarios th, 
+.pagina-inicio .horarios td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Sección de Eventos */
+.pagina-inicio .eventos ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.pagina-inicio .eventos li {
+    padding: 8px;
+}
+
+/* Sección de Contacto */
+.pagina-inicio .contacto p {
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+iframe {
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+iframe:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer solo para inicio.html */
+.pagina-inicio .footer p {
+    background-color: #806d49;
+    color: White;
+    padding: 25px;
+    font-size: 18px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* ================= ESTILOS BARRA MENU INICIO.HTML ================= */
+
+/* Estilos para la barra de menú */
+.menu {
+    background-color: #dbad50; /* Color marrón oscuro */
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background 0.3s, color 0.3s;
+    border-radius: 0px;
+}
+
+.menu ul li a:hover {
+    background-color: #e6e9da; /* Color dorado al pasar el mouse */
+    color: black;
+}
