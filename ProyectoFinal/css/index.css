@@ -1,0 +1,568 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bannerweb {
+    background-image: url("../imagenes/portada2.jpg");
+    background-position: center;
+    height: 100vh;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.centradologin {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bajar1 { padding-top: 150px; }
+.bajar2 { padding-top: 50px; }
+.bajar3 { padding-top: 200px; }
+.bajar4 { padding-top: 175px; }
+.bajar5 { padding-top: 90px; }
+.bajar6 { padding-top: 0px; }
+.bajarlogo { padding-top: 25px; }
+
+h1 { color: #fff; font-size: 70px; }
+h2 { color: #fff; font-size: 50px; }
+h3 { color: #fff; font-size: 40px; }
+h4 { color: #fff; font-size: 25px; }
+h5 { color: #fff; font-size: 15px; }
+h6 { color: #4b3c2e; font-size: 50px; text-align: center; padding-bottom: 10px;}
+h7 { color: #fff; font-size: 30px; }
+.color1 { color: #fff; }
+
+
+.botones {
+    width: 150px;
+    height: 30px;
+    border-radius: 8px solid #070707;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 3);
+    cursor: pointer;
+    color: #fff;
+    background-color: #1E3A8A;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 6px 35px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #1570cd;
+    transition: all linear 0.2s;
+    border-radius: 24px;
+}
+
+.botones:hover {
+    background-color: #dbad50;
+    color: #efefef;
+    transition: all linear 0.3s;
+}
+
+
+.configform {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    color: #fff;
+}
+
+.configform2 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+
+label {
+    font-size: 24px;
+    float: left;
+}
+
+
+.form-control {
+    font-size: 20px;
+    width: 100%;
+    max-width: 200px;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+
+video {
+    object-fit: cover;
+}
+
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -150px;
+}
+
+.logo-container img {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+}
+
+.logo-sociales img {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* ================= ESTILOS PARA INICIO.HTML ================= */
+
+.pagina-inicio section,
+.pagina-agenda section {
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #f5f5dc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.pagina-inicio .bienvenida p,
+.pagina-inicio .historia p, 
+.pagina-agenda .agenda p {
+    font-size: 28px;
+    text-align: justify;
+    color: #000;
+
+}
+
+.imagen-historia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.imagen-historia img {
+    width: 30%;
+    max-width: 400px; 
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f5f5dc;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.pagina-inicio .horarios table {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.pagina-inicio .horarios th, 
+.pagina-inicio .horarios td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.pagina-inicio .eventos ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 28px;
+    text-align: center;
+}
+
+.pagina-inicio .eventos li {
+    padding: 8px;
+}
+
+.pagina-inicio .contacto p {
+    font-size: 28px;
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+iframe {
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+iframe:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.pagina-inicio .footer p,
+.pagina-solicitudes .footer p,
+.pagina-galeria .footer p ,
+.pagina-agenda .footer p,
+.pagina-formacion .footer p {
+    background-color: #806d49;
+    color: White;
+    padding: 25px;
+    font-size: 18px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* ================= ESTILOS BARRA MENU INICIO.HTML ================= */
+
+.pagina-inicio .menu,
+.pagina-solicitudes .menu,
+.pagina-galeria .menu,
+.pagina-agenda .menu,
+.pagina-formacion .menu {
+    background-color: #dbad50;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background 0.3s, color 0.3s;
+    border-radius: 0px;
+}
+
+.menu ul li a:hover {
+    background-color: #e6e9da;
+    color: black;
+}
+
+/* ===== ESTILOS PARA PAGINA DE SOLICITUDES ===== */
+
+.pagina-solicitudes {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.formulario-solicitudes {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.formulario-solicitudes h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #4b3c2e;
+}
+
+.formulario-solicitudes p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.iframe-contenedor {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.iframe-contenedor iframe {
+    width: 120vw;
+    height: 110vh;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== ESTILOS PARA PÁGINA DE GALERÍA ===== */
+
+.seccion-galeria {
+    max-width: 1400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f5f5dc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.seccion-galeria h6 {
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 10px;
+    color: #4b3c2e;
+}
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.galeria-item {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.galeria-item img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* ==== ESTILOS PARA AGENDA ==== */
+
+.pagina-agenda {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor-agenda {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.calendario-parroquial {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+.calendario-parroquial th,
+.calendario-parroquial td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    height: 70px;
+}
+
+.calendario-parroquial td.evento1 {
+    background-color: #cdffee;
+    color: #856404;
+    font-weight: bold;
+    border: 2px solid #e0a800;
+}
+.calendario-parroquial td.evento2 {
+    background-color: #fff3cd;
+    color: #856404;
+    font-weight: bold;
+    border: 2px solid #e0a800;
+}
+.calendario-parroquial td.evento3 {
+    background-color: #facdff;
+    color: #856404;
+    font-weight: bold;
+    border: 2px solid #e0a800;
+}
+
+.leyenda-agenda1,
+.leyenda-agenda2,
+.leyenda-agenda3 {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadro-evento1 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #cdffee;
+    border: 2px solid #856404;
+    margin-right: 10px;
+}
+.cuadro-evento2 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff3cd;
+    border: 2px solid #856404;
+    margin-right: 10px;
+}
+.cuadro-evento3 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #facdff;
+    border: 2px solid #856404;
+    margin-right: 10px;
+}
+
+/* ================= ESTILO FORMULARIO CONTACTO RAPIDO ================= */
+
+#formulario .alertaRoja {
+    color: #ff0000;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#formulario .alertaVerde {
+    color: #2d572c;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#formulario label {
+    color: #4b3c2e;
+    margin-top: 20px;
+    margin-left: 50px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+#formulario form {
+    margin: 0 auto;
+    width: 530px;
+    height: 950px;
+    font-size: 18px;
+    color: #000000;
+    border: solid 5px #c3c2c2;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+
+#formulario input:hover,
+#formulario textarea:hover {
+    outline: 3px solid #dbad50;
+}
+
+#formulario input,
+#formulario textarea {
+    color: #000000;
+    width: 400px;
+    height: 27px;
+    background: #eee;
+    border: 2px solid #4b3c2e;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+#formulario textarea {
+    resize: none;
+    height: 100px;
+}
+
+
+#formulario .enviar {
+    display: block;
+    height: 50px;
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer;
+    background-color: #e23636;
+}
+
+/* ==== ESTILOS PARA PESTAÑAS EN FORMACION ==== */
+.tabs-contenedor {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tabs-botones {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.tablink {
+    background-color: #dbad50;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.tablink:hover,
+.tablink.active {
+    background-color: #4b3c2e;
+    color: white;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    text-align: left;
+}
+
+.tab-img {
+    align-items: center;
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.tabcontent p,
+.tabcontent li {
+    font-size: 25px;
+    line-height: 1.7;
+    color: #333;
+    margin: 10px 20px;
+    text-align: justify;
+}
+
+.tabcontent a {
+    color: #8b5e3c;
+    text-decoration: underline;
+}
+
+.tabcontent a:hover {
+    color: #bf812f;
+    text-decoration: none;
+}

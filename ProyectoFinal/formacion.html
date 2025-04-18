@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Formación | Parroquia SRA</title>
+    <meta charset="UTF-8">
+    <link href="imagenes/favicon/favicon.ico" rel="icon">
+    <link href="css/index.css" rel="stylesheet">
+</head>
+
+<body class="pagina-formacion">
+    <header>
+        <div>
+            <video height="630" width="100%" autoplay loop muted>
+                <source src="medios/cruz.mp4" type="video/mp4">
+            </video>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="inicio.html#historia">Historia</a></li>
+            <li><a href="inicio.html#horarios">Horarios</a></li>
+            <li><a href="inicio.html#eventos">Eventos</a></li>
+            <li><a href="solicitudes.html">Solicitudes</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="agenda.html">Agenda</a></li>
+            <li><a href="formacion.html">Formación</a></li>
+            <li><a href="inicio.html#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <br><br>
+
+    <h6>Formación y grupos de la Parroquia San Rafael de Alajuela</h6>
+
+    <div class="seccion-formacion">
+
+        <div class="tabs-contenedor">
+            <div class="tabs-botones">
+                <button class="tablink active" onclick="abrirTab(event, 'catequesis')">Catequesis</button>
+                <button class="tablink" onclick="abrirTab(event, 'liturgia')">Liturgia</button>
+                <button class="tablink" onclick="abrirTab(event, 'juvenil')">Grupo Juvenil</button>
+                <button class="tablink" onclick="abrirTab(event, 'social')">Pastoral Social</button>
+            </div>
+
+            <div id="catequesis" class="tabcontent" style="display: block;">
+                <p>La parroquia ofrece catequesis para todas las edades, con el objetivo de formar discípulos comprometidos con su fe.</p>
+                <ul>
+                    <li><b>Primera Comunión:</b> Sábados a las 10:00 a.m.</li>
+                    <li><b>Confirmación:</b> Domingos después de misa de 9:00 a.m.</li>
+                    <li><b>Catequesis para adultos:</b> Miércoles a las 6:30 p.m. en el salón parroquial.</li>
+                </ul>
+                <p>Para inscribirse, pueden dirigirse a la oficina parroquial o llenar el formulario en la sección de <a href="solicitudes.html" target="_blank">Solicitudes</a>.</p>
+                <img src="imagenes/formacion/catequesis.jpg" alt="Catequesis" class="tab-img">
+            </div>
+
+            <div id="liturgia" class="tabcontent">
+                <p>El grupo de liturgia se encarga de animar y preparar las celebraciones eucarísticas, así como tiempos litúrgicos especiales.</p>
+                <ul>
+                    <li><b>Ministros Extraordinarios de la Comunión</b></li>
+                    <li><b>Lectores y proclamadores de la Palabra</b></li>
+                    <li><b>Equipo de ambientación y ornato del templo</b></li>
+                </ul>
+                <p>Reuniones: Cada segundo lunes del mes, 7:00 p.m. en el templo.</p>
+                <img src="imagenes/formacion/liturgia.jpg" alt="Liturgia" class="tab-img">
+            </div>
+
+            <div id="juvenil" class="tabcontent">
+                <p>Espacio donde los jóvenes pueden encontrarse, formarse, compartir y vivir su fe en comunidad.</p>
+                <ul>
+                    <li><b>Reuniones semanales:</b> Viernes 7:00 p.m. - 9:00 p.m.</li>
+                    <li><b>Actividades:</b> dinámicas, cine-foros, retiros, voluntariado, y formación espiritual.</li>
+                    <li><b>Edad:</b> A partir de los 13 años.</li>
+                </ul>
+                <p>Todos los jóvenes son bienvenidos, no se necesita inscripción previa. ¡Solo ganas de compartir!</p>
+                <img src="imagenes/formacion/juvenil.jpg" alt="Grupo Juvenil" class="tab-img">
+            </div>
+
+            <div id="social" class="tabcontent">
+                <p>Encargados de llevar la caridad de la Iglesia a las personas más necesitadas de la comunidad.</p>
+                <ul>
+                    <li>Entrega mensual de diarios de alimentos a familias vulnerables.</li>
+                    <li>Campañas de recolección de ropa y útiles escolares.</li>
+                    <li>Voluntariado en visitas a enfermos y adultos mayores.</li>
+                </ul>
+                <p>¿Deseás colaborar? Podés ofrecer víveres o tu tiempo. Consultá en oficina parroquial o por WhatsApp: +506 6170-5997.</p>
+                <img src="imagenes/formacion/pastoralsocial.jpg" alt="Pastoral Social" class="tab-img">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Derechos Reservados &copy; 2025 - Parroquia San Rafael de Alajuela</p>
+    </footer>
+
+    <script src="js/tabs.js"></script>
+
+</body>
+</html>
